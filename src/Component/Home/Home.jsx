@@ -107,7 +107,7 @@ export default function Home() {
           />
         </div>
       </form>
-      <div className="">
+      <div className="text-center my-6">
         <ResponsiveContainer width="100%" height={200}>
           <PieChart>
             <Pie
@@ -122,33 +122,34 @@ export default function Home() {
             />
           </PieChart>
         </ResponsiveContainer>
+        <p className="mb-10  text-[#8884d8] dark:text-white">total amount </p>
       </div>
 
       <div className="relative overflow-x-auto w-full mt-4">
         <table className="min-w-full divide-y divide-gray-200">
-          <thead className="bg-gray-50 dark:bg-gray-700">
+          <thead className="bg-[#8884d8] dark:bg-gray-700 ">
             <tr>
               <th
                 scope="col"
-                className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider"
+                className="px-6 py-3 text-left text-xs font-medium text-gray-100 dark:text-gray-400 uppercase tracking-wider"
               >
                 Customer Name
               </th>
               <th
                 scope="col"
-                className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider"
+                className="px-6 py-3 text-left text-xs font-medium text-gray-100 dark:text-gray-400 uppercase tracking-wider"
               >
                 Transaction ID
               </th>
               <th
                 scope="col"
-                className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider"
+                className="px-6 py-3 text-left text-xs font-medium text-gray-100 dark:text-gray-400 uppercase tracking-wider"
               >
                 Date
               </th>
               <th
                 scope="col"
-                className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider"
+                className="px-6 py-3 text-left text-xs font-medium text-gray-100 dark:text-gray-400 uppercase tracking-wider"
               >
                 Amount
               </th>
